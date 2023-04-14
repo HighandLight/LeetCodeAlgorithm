@@ -11,9 +11,7 @@ class Solution {
         for (int i = s.length() - 1; i >= 0;i--) {  //O(n)
             n = n + s.charAt(i);
         }
-        System.out.println(s);
-        System.out.println(n);
-        
+
         boolean ans = (s.equals(n)) ? true : false;  //O(n)
         return ans;
     }
