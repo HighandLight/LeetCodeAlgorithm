@@ -11,8 +11,6 @@ class Solution:
         while end and end.next:
             end = end.next.next
             middle = middle.next
-            print(end)
-            print(middle.val)
         return middle
                 
             
