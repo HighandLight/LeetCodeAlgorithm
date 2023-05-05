@@ -20,6 +20,7 @@ class Solution {
         if(root == null) {
             return list;
         }
+        
         list.addAll(inorderTraversal(root.left));
         list.add(root.val);
         list.addAll(inorderTraversal(root.right));
